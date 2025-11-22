@@ -3,8 +3,12 @@
     margin: auto;
     display: block;
 }
+body{
+  margin: 0%;
+}
 #headerImage{
     width: 100%;
+    margin: 0%;
 }
 h1{
     margin: auto;
@@ -14,3 +18,37 @@ h1{
     font-size: 10vw;
     text-align: center;
 }
+.gameContents{
+  float: left;
+}
+.illustrationContents{
+  float: right;
+}
+.img-link img {
+  width: 20%;
+  margin: 5%;
+  transition: 0.2s ease;
+}
+.game-img-link{
+  width: 20%;
+  margin: 5%;
+  transition: 0.2s ease;
+}
+.game-img-link:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+.img-link img:hover {
+  opacity: 0.8;
+  transform: scale(1.1);
+}
+/*
+.text-bottom{
+  margin: auto;
+  display: block;
+
+  margin-top: 0%;
+  font-size: 5vw;
+  text-align: left;
+}
+  */
